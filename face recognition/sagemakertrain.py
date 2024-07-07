@@ -20,7 +20,7 @@ def generate_data_location(bucket_name, prefix):
 
 def get_role(): 
     """Get role for sagemaker execution."""
-    return 'AmazonSageMaker-ExecutionRole-20200415T110383'
+    return role
 
 #Setting estimator parameters
 use_spot_instances = False
