@@ -1,6 +1,8 @@
 Training ArcFace from Scratch
+
 To train the ArcFace model from scratch, follow these steps:
 Clone the repository and navigate to the project directory.
+
 Install the required dependencies by running pip install -r requirements.txt.
 Prepare your dataset in TFRecord format and specify the path to the dataset using the --train_tfrecord_path argument.
 Run the training script using the following command:
