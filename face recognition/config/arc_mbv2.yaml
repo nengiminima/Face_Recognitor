@@ -1,0 +1,15 @@
+#parameters
+batch_size : 128
+input_size  : 112
+embd_shape : 512 
+sub_name : 'arc_mobv2' #arc_rec50 or arc_mobv2
+backbone_type : 'MobileNetV2' # 'ResNet50', 'MobileNetV2'
+head_type : "ArcHead" # 'ArcHead', 'NormHead'
+is_ccrop : False # central-cropping or not
+binary_img : True
+num_classes :  10 #85743 # 94873 # 9131 #
+num_samples : 847 # 5822653 # 8960460 # 3137806 #
+epochs : 4
+base_lr : [0.01, 0.001, 0.1, 0.0001]
+w_decay : 0.0005
+save_steps : 1 #****************** 500 #
