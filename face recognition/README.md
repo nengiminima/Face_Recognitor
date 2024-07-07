@@ -1,4 +1,4 @@
-Training ArcFace from Scratch
+#Training ArcFace from Scratch
 
 To train the ArcFace model from scratch, follow these steps:
 Clone the repository and navigate to the project directory.
